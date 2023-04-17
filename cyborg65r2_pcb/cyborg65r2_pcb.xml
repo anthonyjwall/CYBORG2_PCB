@@ -1,0 +1,1325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/anthonywall/Library/CloudStorage/OneDrive-UniversityCollegeCork/Cyborgr2 Tapeout/PCB_DESIGN/CYBORG2_PCB/cyborg65r2_pcb/cyborg65r2_pcb.kicad_sch</source>
+    <date>Tuesday 07 March 2023 at 10:08:20</date>
+    <tool>Eeschema (7.0.0-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>cyborg65r2_pcb.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/VDD3P3/" tstamps="/b0102711-54cb-4d3d-9405-2559fbf4fe47/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>VDD3P3.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/VDDD2P5/" tstamps="/d4fd6e9e-8581-47da-b5f5-eaf23be1976e/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>VDDD2P5.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/VDDD1P2/" tstamps="/d1464397-4d1c-43d1-bd89-b55b9a724d93/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>VDDD1P2.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/VDDA2P5/" tstamps="/3e47a574-34e2-4771-9247-02856d1b0ff8/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>VDDA2P5.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>GRM21BZ71E106KE15</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.murata.com/products/productdetail?partno=GRM21BZ71E106KE15%23</datasheet>
+      <libsource lib="cyborg65r2_pcb_passives" part="GRM21BZ71E106KE15" description="0805 Ceramic Decoupling Cap"/>
+      <property name="Sheetname" value="VDD3P3"/>
+      <property name="Sheetfile" value="VDD3P3.kicad_sch"/>
+      <property name="ki_description" value="0805 Ceramic Decoupling Cap"/>
+      <property name="ki_keywords" value="cap capacitor ceramic SMD 0805"/>
+      <sheetpath names="/VDD3P3/" tstamps="/b0102711-54cb-4d3d-9405-2559fbf4fe47/"/>
+      <tstamps>926497b1-1634-4ae1-95c1-0fb2b6bdae6d</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>GRM21BZ71E106KE15</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.murata.com/products/productdetail?partno=GRM21BZ71E106KE15%23</datasheet>
+      <libsource lib="cyborg65r2_pcb_passives" part="GRM21BZ71E106KE15" description="0805 Ceramic Decoupling Cap"/>
+      <property name="Sheetname" value="VDD3P3"/>
+      <property name="Sheetfile" value="VDD3P3.kicad_sch"/>
+      <property name="ki_description" value="0805 Ceramic Decoupling Cap"/>
+      <property name="ki_keywords" value="cap capacitor ceramic SMD 0805"/>
+      <sheetpath names="/VDD3P3/" tstamps="/b0102711-54cb-4d3d-9405-2559fbf4fe47/"/>
+      <tstamps>f9f75e36-c573-4566-97f4-b499b6ee9349</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>GRM21BC71H475KE11</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.murata.com/en-eu/products/productdetail?partno=GRM21BC71H475KE11%23</datasheet>
+      <libsource lib="cyborg65r2_pcb_passives" part="GRM21BC71H475KE11" description="0805 Ceramic Decoupling Cap"/>
+      <property name="Sheetname" value="VDD3P3"/>
+      <property name="Sheetfile" value="VDD3P3.kicad_sch"/>
+      <property name="ki_description" value="0805 Ceramic Decoupling Cap"/>
+      <property name="ki_keywords" value="cap capacitor ceramic SMD 0805"/>
+      <sheetpath names="/VDD3P3/" tstamps="/b0102711-54cb-4d3d-9405-2559fbf4fe47/"/>
+      <tstamps>4544a92e-5d11-4164-b825-1fa16c143a31</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>GRM21BZ71E106KE15</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.murata.com/products/productdetail?partno=GRM21BZ71E106KE15%23</datasheet>
+      <libsource lib="cyborg65r2_pcb_passives" part="GRM21BZ71E106KE15" description="0805 Ceramic Decoupling Cap"/>
+      <property name="Sheetname" value="VDD3P3"/>
+      <property name="Sheetfile" value="VDD3P3.kicad_sch"/>
+      <property name="ki_description" value="0805 Ceramic Decoupling Cap"/>
+      <property name="ki_keywords" value="cap capacitor ceramic SMD 0805"/>
+      <sheetpath names="/VDD3P3/" tstamps="/b0102711-54cb-4d3d-9405-2559fbf4fe47/"/>
+      <tstamps>a234f371-4b0b-4017-935b-6c080722eb2a</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148WT</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <datasheet>https://www.onsemi.com/products/discrete-power-modules/small-signal-switching-diodes/1n4148wt</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="cyborg65r2_pcb_passives" part="1N4148WT" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="VDD3P3"/>
+      <property name="Sheetfile" value="VDD3P3.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/VDD3P3/" tstamps="/b0102711-54cb-4d3d-9405-2559fbf4fe47/"/>
+      <tstamps>dda624d9-2a91-40e6-afdb-3541348afd9d</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>5006</value>
+      <footprint>5006</footprint>
+      <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1315</datasheet>
+      <fields>
+        <field name="Arrow Part Number">5006</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/5006/keystone-electronics?region=europe</field>
+        <field name="Description">Test Point, PC, Snap in Mounting,  Compact, Black Base</field>
+        <field name="Manufacturer_Name">Keystone Electronics</field>
+        <field name="Manufacturer_Part_Number">5006</field>
+        <field name="Mouser Part Number">534-5006</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5006?qs=q0tsjPZWdm99DN5QVOwb8g%3D%3D</field>
+      </fields>
+      <libsource lib="cyborg65r2_connectors" part="5006" description="Test Point, PC, Snap in Mounting,  Compact, Black Base"/>
+      <property name="Description" value="Test Point, PC, Snap in Mounting,  Compact, Black Base"/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer_Name" value="Keystone Electronics"/>
+      <property name="Manufacturer_Part_Number" value="5006"/>
+      <property name="Mouser Part Number" value="534-5006"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5006?qs=q0tsjPZWdm99DN5QVOwb8g%3D%3D"/>
+      <property name="Arrow Part Number" value="5006"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/5006/keystone-electronics?region=europe"/>
+      <property name="Sheetname" value="VDD3P3"/>
+      <property name="Sheetfile" value="VDD3P3.kicad_sch"/>
+      <property name="ki_description" value="Test Point, PC, Snap in Mounting,  Compact, Black Base"/>
+      <sheetpath names="/VDD3P3/" tstamps="/b0102711-54cb-4d3d-9405-2559fbf4fe47/"/>
+      <tstamps>d8405e1b-52e8-4d96-8422-7c758de1a03a</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>5006</value>
+      <footprint>5006</footprint>
+      <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1315</datasheet>
+      <fields>
+        <field name="Arrow Part Number">5006</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/5006/keystone-electronics?region=europe</field>
+        <field name="Description">Test Point, PC, Snap in Mounting,  Compact, Black Base</field>
+        <field name="Manufacturer_Name">Keystone Electronics</field>
+        <field name="Manufacturer_Part_Number">5006</field>
+        <field name="Mouser Part Number">534-5006</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5006?qs=q0tsjPZWdm99DN5QVOwb8g%3D%3D</field>
+      </fields>
+      <libsource lib="cyborg65r2_connectors" part="5006" description="Test Point, PC, Snap in Mounting,  Compact, Black Base"/>
+      <property name="Description" value="Test Point, PC, Snap in Mounting,  Compact, Black Base"/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer_Name" value="Keystone Electronics"/>
+      <property name="Manufacturer_Part_Number" value="5006"/>
+      <property name="Mouser Part Number" value="534-5006"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5006?qs=q0tsjPZWdm99DN5QVOwb8g%3D%3D"/>
+      <property name="Arrow Part Number" value="5006"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/5006/keystone-electronics?region=europe"/>
+      <property name="Sheetname" value="VDD3P3"/>
+      <property name="Sheetfile" value="VDD3P3.kicad_sch"/>
+      <property name="ki_description" value="Test Point, PC, Snap in Mounting,  Compact, Black Base"/>
+      <sheetpath names="/VDD3P3/" tstamps="/b0102711-54cb-4d3d-9405-2559fbf4fe47/"/>
+      <tstamps>622ba253-4114-427a-bf28-cab03283db27</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>413990-1</value>
+      <footprint>cyborg65r2_connectors:413990-1</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/413990-1.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">413990-1</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/413990-1/te-connectivity?region=nac</field>
+        <field name="Description">SMB Connector Receptacle, Male Pin 50Ohm Through Hole Solder</field>
+        <field name="Height">7.62</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">413990-1</field>
+        <field name="Mouser Part Number">571-4139901</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity/413990-1?qs=7QuPeZUaY4GhWa7hqv5PMQ%3D%3D</field>
+      </fields>
+      <libsource lib="cyborg65r2_connectors" part="413990-1" description="SMB Connector Receptacle, Male Pin 50Ohm Through Hole Solder"/>
+      <property name="Description" value="SMB Connector Receptacle, Male Pin 50Ohm Through Hole Solder"/>
+      <property name="Height" value="7.62"/>
+      <property name="Manufacturer_Name" value="TE Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="413990-1"/>
+      <property name="Mouser Part Number" value="571-4139901"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity/413990-1?qs=7QuPeZUaY4GhWa7hqv5PMQ%3D%3D"/>
+      <property name="Arrow Part Number" value="413990-1"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/413990-1/te-connectivity?region=nac"/>
+      <property name="Sheetname" value="VDD3P3"/>
+      <property name="Sheetfile" value="VDD3P3.kicad_sch"/>
+      <property name="ki_description" value="SMB Connector Receptacle, Male Pin 50Ohm Through Hole Solder"/>
+      <sheetpath names="/VDD3P3/" tstamps="/b0102711-54cb-4d3d-9405-2559fbf4fe47/"/>
+      <tstamps>d46ba66b-c2cb-4223-b968-aa5ec985fcc6</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>TE 826926-3</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.te.com/usa-en/product-826926-3.html</datasheet>
+      <libsource lib="cyborg65r2_connectors" part="TE 826926-3" description="1x3 2.56mm Pin header"/>
+      <property name="Sheetname" value="VDD3P3"/>
+      <property name="Sheetfile" value="VDD3P3.kicad_sch"/>
+      <property name="ki_description" value="1x3 2.56mm Pin header"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/VDD3P3/" tstamps="/b0102711-54cb-4d3d-9405-2559fbf4fe47/"/>
+      <tstamps>05c958cc-0e1f-4488-bcdf-e4319989c4d0</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>ERJ-6ENF3322V</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <libsource lib="cyborg65r2_pcb_passives" part="ERJ-6ENF3322V" description="Resistor"/>
+      <property name="Sheetname" value="VDD3P3"/>
+      <property name="Sheetfile" value="VDD3P3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VDD3P3/" tstamps="/b0102711-54cb-4d3d-9405-2559fbf4fe47/"/>
+      <tstamps>00b82bce-0152-4f74-9a34-7ab7cab19dea</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>ERJ-6ENF3322V</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <libsource lib="cyborg65r2_pcb_passives" part="ERJ-6ENF3322V" description="Resistor"/>
+      <property name="Sheetname" value="VDD3P3"/>
+      <property name="Sheetfile" value="VDD3P3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VDD3P3/" tstamps="/b0102711-54cb-4d3d-9405-2559fbf4fe47/"/>
+      <tstamps>76f733b5-2853-4f74-a04b-645bad128843</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LT3045xMSE</value>
+      <footprint>Package_SO:MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/3045fa.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LT3045xMSE" description="500mA, Adjustable, Ultralow Noise, Ultrahigh PSRR Linear Regulator, MSOP-12"/>
+      <property name="Sheetname" value="VDD3P3"/>
+      <property name="Sheetfile" value="VDD3P3.kicad_sch"/>
+      <property name="ki_description" value="500mA, Adjustable, Ultralow Noise, Ultrahigh PSRR Linear Regulator, MSOP-12"/>
+      <property name="ki_keywords" value="linear voltage regulator low-noise"/>
+      <sheetpath names="/VDD3P3/" tstamps="/b0102711-54cb-4d3d-9405-2559fbf4fe47/"/>
+      <tstamps>eff8ff60-e568-42db-9776-a275ca7bf6b5</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>GRM21BZ71E106KE15</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.murata.com/products/productdetail?partno=GRM21BZ71E106KE15%23</datasheet>
+      <libsource lib="cyborg65r2_pcb_passives" part="GRM21BZ71E106KE15" description="0805 Ceramic Decoupling Cap"/>
+      <property name="Sheetname" value="VDDD2P5"/>
+      <property name="Sheetfile" value="VDDD2P5.kicad_sch"/>
+      <property name="ki_description" value="0805 Ceramic Decoupling Cap"/>
+      <property name="ki_keywords" value="cap capacitor ceramic SMD 0805"/>
+      <sheetpath names="/VDDD2P5/" tstamps="/d4fd6e9e-8581-47da-b5f5-eaf23be1976e/"/>
+      <tstamps>2b9b9cc8-65dd-40e8-a2db-c881c700a8b0</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>GRM21BZ71E106KE15</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.murata.com/products/productdetail?partno=GRM21BZ71E106KE15%23</datasheet>
+      <libsource lib="cyborg65r2_pcb_passives" part="GRM21BZ71E106KE15" description="0805 Ceramic Decoupling Cap"/>
+      <property name="Sheetname" value="VDDD2P5"/>
+      <property name="Sheetfile" value="VDDD2P5.kicad_sch"/>
+      <property name="ki_description" value="0805 Ceramic Decoupling Cap"/>
+      <property name="ki_keywords" value="cap capacitor ceramic SMD 0805"/>
+      <sheetpath names="/VDDD2P5/" tstamps="/d4fd6e9e-8581-47da-b5f5-eaf23be1976e/"/>
+      <tstamps>26df2a4b-770d-49d7-88ab-dc2e15c4a1b5</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>GRM21BC71H475KE11</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.murata.com/en-eu/products/productdetail?partno=GRM21BC71H475KE11%23</datasheet>
+      <libsource lib="cyborg65r2_pcb_passives" part="GRM21BC71H475KE11" description="0805 Ceramic Decoupling Cap"/>
+      <property name="Sheetname" value="VDDD2P5"/>
+      <property name="Sheetfile" value="VDDD2P5.kicad_sch"/>
+      <property name="ki_description" value="0805 Ceramic Decoupling Cap"/>
+      <property name="ki_keywords" value="cap capacitor ceramic SMD 0805"/>
+      <sheetpath names="/VDDD2P5/" tstamps="/d4fd6e9e-8581-47da-b5f5-eaf23be1976e/"/>
+      <tstamps>0e563476-de75-44c7-87b9-ac1d32b0a96b</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>GRM21BZ71E106KE15</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.murata.com/products/productdetail?partno=GRM21BZ71E106KE15%23</datasheet>
+      <libsource lib="cyborg65r2_pcb_passives" part="GRM21BZ71E106KE15" description="0805 Ceramic Decoupling Cap"/>
+      <property name="Sheetname" value="VDDD2P5"/>
+      <property name="Sheetfile" value="VDDD2P5.kicad_sch"/>
+      <property name="ki_description" value="0805 Ceramic Decoupling Cap"/>
+      <property name="ki_keywords" value="cap capacitor ceramic SMD 0805"/>
+      <sheetpath names="/VDDD2P5/" tstamps="/d4fd6e9e-8581-47da-b5f5-eaf23be1976e/"/>
+      <tstamps>212734c5-7197-46df-bef2-1b8bbe272fdb</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148WT</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <datasheet>https://www.onsemi.com/products/discrete-power-modules/small-signal-switching-diodes/1n4148wt</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="cyborg65r2_pcb_passives" part="1N4148WT" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="VDDD2P5"/>
+      <property name="Sheetfile" value="VDDD2P5.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/VDDD2P5/" tstamps="/d4fd6e9e-8581-47da-b5f5-eaf23be1976e/"/>
+      <tstamps>919dcc1b-c783-4ae8-9d36-ba94d4a8dd19</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>5006</value>
+      <footprint>5006</footprint>
+      <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1315</datasheet>
+      <fields>
+        <field name="Arrow Part Number">5006</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/5006/keystone-electronics?region=europe</field>
+        <field name="Description">Test Point, PC, Snap in Mounting,  Compact, Black Base</field>
+        <field name="Manufacturer_Name">Keystone Electronics</field>
+        <field name="Manufacturer_Part_Number">5006</field>
+        <field name="Mouser Part Number">534-5006</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5006?qs=q0tsjPZWdm99DN5QVOwb8g%3D%3D</field>
+      </fields>
+      <libsource lib="cyborg65r2_connectors" part="5006" description="Test Point, PC, Snap in Mounting,  Compact, Black Base"/>
+      <property name="Description" value="Test Point, PC, Snap in Mounting,  Compact, Black Base"/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer_Name" value="Keystone Electronics"/>
+      <property name="Manufacturer_Part_Number" value="5006"/>
+      <property name="Mouser Part Number" value="534-5006"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5006?qs=q0tsjPZWdm99DN5QVOwb8g%3D%3D"/>
+      <property name="Arrow Part Number" value="5006"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/5006/keystone-electronics?region=europe"/>
+      <property name="Sheetname" value="VDDD2P5"/>
+      <property name="Sheetfile" value="VDDD2P5.kicad_sch"/>
+      <property name="ki_description" value="Test Point, PC, Snap in Mounting,  Compact, Black Base"/>
+      <sheetpath names="/VDDD2P5/" tstamps="/d4fd6e9e-8581-47da-b5f5-eaf23be1976e/"/>
+      <tstamps>7ce6c9d8-795a-4a6f-b8ab-1e93abc14b80</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>5006</value>
+      <footprint>5006</footprint>
+      <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1315</datasheet>
+      <fields>
+        <field name="Arrow Part Number">5006</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/5006/keystone-electronics?region=europe</field>
+        <field name="Description">Test Point, PC, Snap in Mounting,  Compact, Black Base</field>
+        <field name="Manufacturer_Name">Keystone Electronics</field>
+        <field name="Manufacturer_Part_Number">5006</field>
+        <field name="Mouser Part Number">534-5006</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5006?qs=q0tsjPZWdm99DN5QVOwb8g%3D%3D</field>
+      </fields>
+      <libsource lib="cyborg65r2_connectors" part="5006" description="Test Point, PC, Snap in Mounting,  Compact, Black Base"/>
+      <property name="Description" value="Test Point, PC, Snap in Mounting,  Compact, Black Base"/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer_Name" value="Keystone Electronics"/>
+      <property name="Manufacturer_Part_Number" value="5006"/>
+      <property name="Mouser Part Number" value="534-5006"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5006?qs=q0tsjPZWdm99DN5QVOwb8g%3D%3D"/>
+      <property name="Arrow Part Number" value="5006"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/5006/keystone-electronics?region=europe"/>
+      <property name="Sheetname" value="VDDD2P5"/>
+      <property name="Sheetfile" value="VDDD2P5.kicad_sch"/>
+      <property name="ki_description" value="Test Point, PC, Snap in Mounting,  Compact, Black Base"/>
+      <sheetpath names="/VDDD2P5/" tstamps="/d4fd6e9e-8581-47da-b5f5-eaf23be1976e/"/>
+      <tstamps>63018452-b019-416e-a015-1b4f8df8ef6b</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>413990-1</value>
+      <footprint>cyborg65r2_connectors:413990-1</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/413990-1.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">413990-1</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/413990-1/te-connectivity?region=nac</field>
+        <field name="Description">SMB Connector Receptacle, Male Pin 50Ohm Through Hole Solder</field>
+        <field name="Height">7.62</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">413990-1</field>
+        <field name="Mouser Part Number">571-4139901</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity/413990-1?qs=7QuPeZUaY4GhWa7hqv5PMQ%3D%3D</field>
+      </fields>
+      <libsource lib="cyborg65r2_connectors" part="413990-1" description="SMB Connector Receptacle, Male Pin 50Ohm Through Hole Solder"/>
+      <property name="Description" value="SMB Connector Receptacle, Male Pin 50Ohm Through Hole Solder"/>
+      <property name="Height" value="7.62"/>
+      <property name="Manufacturer_Name" value="TE Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="413990-1"/>
+      <property name="Mouser Part Number" value="571-4139901"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity/413990-1?qs=7QuPeZUaY4GhWa7hqv5PMQ%3D%3D"/>
+      <property name="Arrow Part Number" value="413990-1"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/413990-1/te-connectivity?region=nac"/>
+      <property name="Sheetname" value="VDDD2P5"/>
+      <property name="Sheetfile" value="VDDD2P5.kicad_sch"/>
+      <property name="ki_description" value="SMB Connector Receptacle, Male Pin 50Ohm Through Hole Solder"/>
+      <sheetpath names="/VDDD2P5/" tstamps="/d4fd6e9e-8581-47da-b5f5-eaf23be1976e/"/>
+      <tstamps>df912569-38e5-42ec-ab75-31fa36fd24cc</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>TE 826926-3</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.te.com/usa-en/product-826926-3.html</datasheet>
+      <libsource lib="cyborg65r2_connectors" part="TE 826926-3" description="1x3 2.56mm Pin header"/>
+      <property name="Sheetname" value="VDDD2P5"/>
+      <property name="Sheetfile" value="VDDD2P5.kicad_sch"/>
+      <property name="ki_description" value="1x3 2.56mm Pin header"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/VDDD2P5/" tstamps="/d4fd6e9e-8581-47da-b5f5-eaf23be1976e/"/>
+      <tstamps>e59e752f-5990-4543-9b65-0ab1adb33b41</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>ERJ-6ENF3322V</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <libsource lib="cyborg65r2_pcb_passives" part="ERJ-6ENF3322V" description="Resistor"/>
+      <property name="Sheetname" value="VDDD2P5"/>
+      <property name="Sheetfile" value="VDDD2P5.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VDDD2P5/" tstamps="/d4fd6e9e-8581-47da-b5f5-eaf23be1976e/"/>
+      <tstamps>206466ff-02d9-4ad0-85eb-e1324a83ed7e</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>ERJ-6ENF2492V</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <libsource lib="cyborg65r2_pcb_passives" part="ERJ-6ENF2492V" description="Resistor"/>
+      <property name="Sheetname" value="VDDD2P5"/>
+      <property name="Sheetfile" value="VDDD2P5.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VDDD2P5/" tstamps="/d4fd6e9e-8581-47da-b5f5-eaf23be1976e/"/>
+      <tstamps>55fdef64-63b7-42c3-969c-84f1387be33e</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>LT3045xMSE</value>
+      <footprint>Package_SO:MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/3045fa.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LT3045xMSE" description="500mA, Adjustable, Ultralow Noise, Ultrahigh PSRR Linear Regulator, MSOP-12"/>
+      <property name="Sheetname" value="VDDD2P5"/>
+      <property name="Sheetfile" value="VDDD2P5.kicad_sch"/>
+      <property name="ki_description" value="500mA, Adjustable, Ultralow Noise, Ultrahigh PSRR Linear Regulator, MSOP-12"/>
+      <property name="ki_keywords" value="linear voltage regulator low-noise"/>
+      <sheetpath names="/VDDD2P5/" tstamps="/d4fd6e9e-8581-47da-b5f5-eaf23be1976e/"/>
+      <tstamps>c8b5a1ef-106a-42b1-a37c-afdd655ef956</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>GRM21BZ71E106KE15</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.murata.com/products/productdetail?partno=GRM21BZ71E106KE15%23</datasheet>
+      <libsource lib="cyborg65r2_pcb_passives" part="GRM21BZ71E106KE15" description="0805 Ceramic Decoupling Cap"/>
+      <property name="Sheetname" value="VDDD1P2"/>
+      <property name="Sheetfile" value="VDDD1P2.kicad_sch"/>
+      <property name="ki_description" value="0805 Ceramic Decoupling Cap"/>
+      <property name="ki_keywords" value="cap capacitor ceramic SMD 0805"/>
+      <sheetpath names="/VDDD1P2/" tstamps="/d1464397-4d1c-43d1-bd89-b55b9a724d93/"/>
+      <tstamps>2b9b9cc8-65dd-40e8-a2db-c881c700a8b0</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>GRM21BZ71E106KE15</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.murata.com/products/productdetail?partno=GRM21BZ71E106KE15%23</datasheet>
+      <libsource lib="cyborg65r2_pcb_passives" part="GRM21BZ71E106KE15" description="0805 Ceramic Decoupling Cap"/>
+      <property name="Sheetname" value="VDDD1P2"/>
+      <property name="Sheetfile" value="VDDD1P2.kicad_sch"/>
+      <property name="ki_description" value="0805 Ceramic Decoupling Cap"/>
+      <property name="ki_keywords" value="cap capacitor ceramic SMD 0805"/>
+      <sheetpath names="/VDDD1P2/" tstamps="/d1464397-4d1c-43d1-bd89-b55b9a724d93/"/>
+      <tstamps>26df2a4b-770d-49d7-88ab-dc2e15c4a1b5</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>GRM21BC71H475KE11</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.murata.com/en-eu/products/productdetail?partno=GRM21BC71H475KE11%23</datasheet>
+      <libsource lib="cyborg65r2_pcb_passives" part="GRM21BC71H475KE11" description="0805 Ceramic Decoupling Cap"/>
+      <property name="Sheetname" value="VDDD1P2"/>
+      <property name="Sheetfile" value="VDDD1P2.kicad_sch"/>
+      <property name="ki_description" value="0805 Ceramic Decoupling Cap"/>
+      <property name="ki_keywords" value="cap capacitor ceramic SMD 0805"/>
+      <sheetpath names="/VDDD1P2/" tstamps="/d1464397-4d1c-43d1-bd89-b55b9a724d93/"/>
+      <tstamps>0e563476-de75-44c7-87b9-ac1d32b0a96b</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>GRM21BZ71E106KE15</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.murata.com/products/productdetail?partno=GRM21BZ71E106KE15%23</datasheet>
+      <libsource lib="cyborg65r2_pcb_passives" part="GRM21BZ71E106KE15" description="0805 Ceramic Decoupling Cap"/>
+      <property name="Sheetname" value="VDDD1P2"/>
+      <property name="Sheetfile" value="VDDD1P2.kicad_sch"/>
+      <property name="ki_description" value="0805 Ceramic Decoupling Cap"/>
+      <property name="ki_keywords" value="cap capacitor ceramic SMD 0805"/>
+      <sheetpath names="/VDDD1P2/" tstamps="/d1464397-4d1c-43d1-bd89-b55b9a724d93/"/>
+      <tstamps>212734c5-7197-46df-bef2-1b8bbe272fdb</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148WT</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <datasheet>https://www.onsemi.com/products/discrete-power-modules/small-signal-switching-diodes/1n4148wt</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="cyborg65r2_pcb_passives" part="1N4148WT" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="VDDD1P2"/>
+      <property name="Sheetfile" value="VDDD1P2.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/VDDD1P2/" tstamps="/d1464397-4d1c-43d1-bd89-b55b9a724d93/"/>
+      <tstamps>919dcc1b-c783-4ae8-9d36-ba94d4a8dd19</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>5006</value>
+      <footprint>5006</footprint>
+      <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1315</datasheet>
+      <fields>
+        <field name="Arrow Part Number">5006</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/5006/keystone-electronics?region=europe</field>
+        <field name="Description">Test Point, PC, Snap in Mounting,  Compact, Black Base</field>
+        <field name="Manufacturer_Name">Keystone Electronics</field>
+        <field name="Manufacturer_Part_Number">5006</field>
+        <field name="Mouser Part Number">534-5006</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5006?qs=q0tsjPZWdm99DN5QVOwb8g%3D%3D</field>
+      </fields>
+      <libsource lib="cyborg65r2_connectors" part="5006" description="Test Point, PC, Snap in Mounting,  Compact, Black Base"/>
+      <property name="Description" value="Test Point, PC, Snap in Mounting,  Compact, Black Base"/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer_Name" value="Keystone Electronics"/>
+      <property name="Manufacturer_Part_Number" value="5006"/>
+      <property name="Mouser Part Number" value="534-5006"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5006?qs=q0tsjPZWdm99DN5QVOwb8g%3D%3D"/>
+      <property name="Arrow Part Number" value="5006"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/5006/keystone-electronics?region=europe"/>
+      <property name="Sheetname" value="VDDD1P2"/>
+      <property name="Sheetfile" value="VDDD1P2.kicad_sch"/>
+      <property name="ki_description" value="Test Point, PC, Snap in Mounting,  Compact, Black Base"/>
+      <sheetpath names="/VDDD1P2/" tstamps="/d1464397-4d1c-43d1-bd89-b55b9a724d93/"/>
+      <tstamps>7ce6c9d8-795a-4a6f-b8ab-1e93abc14b80</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>5006</value>
+      <footprint>5006</footprint>
+      <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1315</datasheet>
+      <fields>
+        <field name="Arrow Part Number">5006</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/5006/keystone-electronics?region=europe</field>
+        <field name="Description">Test Point, PC, Snap in Mounting,  Compact, Black Base</field>
+        <field name="Manufacturer_Name">Keystone Electronics</field>
+        <field name="Manufacturer_Part_Number">5006</field>
+        <field name="Mouser Part Number">534-5006</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5006?qs=q0tsjPZWdm99DN5QVOwb8g%3D%3D</field>
+      </fields>
+      <libsource lib="cyborg65r2_connectors" part="5006" description="Test Point, PC, Snap in Mounting,  Compact, Black Base"/>
+      <property name="Description" value="Test Point, PC, Snap in Mounting,  Compact, Black Base"/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer_Name" value="Keystone Electronics"/>
+      <property name="Manufacturer_Part_Number" value="5006"/>
+      <property name="Mouser Part Number" value="534-5006"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5006?qs=q0tsjPZWdm99DN5QVOwb8g%3D%3D"/>
+      <property name="Arrow Part Number" value="5006"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/5006/keystone-electronics?region=europe"/>
+      <property name="Sheetname" value="VDDD1P2"/>
+      <property name="Sheetfile" value="VDDD1P2.kicad_sch"/>
+      <property name="ki_description" value="Test Point, PC, Snap in Mounting,  Compact, Black Base"/>
+      <sheetpath names="/VDDD1P2/" tstamps="/d1464397-4d1c-43d1-bd89-b55b9a724d93/"/>
+      <tstamps>63018452-b019-416e-a015-1b4f8df8ef6b</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>413990-1</value>
+      <footprint>cyborg65r2_connectors:413990-1</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/413990-1.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">413990-1</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/413990-1/te-connectivity?region=nac</field>
+        <field name="Description">SMB Connector Receptacle, Male Pin 50Ohm Through Hole Solder</field>
+        <field name="Height">7.62</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">413990-1</field>
+        <field name="Mouser Part Number">571-4139901</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity/413990-1?qs=7QuPeZUaY4GhWa7hqv5PMQ%3D%3D</field>
+      </fields>
+      <libsource lib="cyborg65r2_connectors" part="413990-1" description="SMB Connector Receptacle, Male Pin 50Ohm Through Hole Solder"/>
+      <property name="Description" value="SMB Connector Receptacle, Male Pin 50Ohm Through Hole Solder"/>
+      <property name="Height" value="7.62"/>
+      <property name="Manufacturer_Name" value="TE Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="413990-1"/>
+      <property name="Mouser Part Number" value="571-4139901"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity/413990-1?qs=7QuPeZUaY4GhWa7hqv5PMQ%3D%3D"/>
+      <property name="Arrow Part Number" value="413990-1"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/413990-1/te-connectivity?region=nac"/>
+      <property name="Sheetname" value="VDDD1P2"/>
+      <property name="Sheetfile" value="VDDD1P2.kicad_sch"/>
+      <property name="ki_description" value="SMB Connector Receptacle, Male Pin 50Ohm Through Hole Solder"/>
+      <sheetpath names="/VDDD1P2/" tstamps="/d1464397-4d1c-43d1-bd89-b55b9a724d93/"/>
+      <tstamps>df912569-38e5-42ec-ab75-31fa36fd24cc</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>TE 826926-3</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.te.com/usa-en/product-826926-3.html</datasheet>
+      <libsource lib="cyborg65r2_connectors" part="TE 826926-3" description="1x3 2.56mm Pin header"/>
+      <property name="Sheetname" value="VDDD1P2"/>
+      <property name="Sheetfile" value="VDDD1P2.kicad_sch"/>
+      <property name="ki_description" value="1x3 2.56mm Pin header"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/VDDD1P2/" tstamps="/d1464397-4d1c-43d1-bd89-b55b9a724d93/"/>
+      <tstamps>e59e752f-5990-4543-9b65-0ab1adb33b41</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>ERJ-6ENF3322V</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <libsource lib="cyborg65r2_pcb_passives" part="ERJ-6ENF3322V" description="Resistor"/>
+      <property name="Sheetname" value="VDDD1P2"/>
+      <property name="Sheetfile" value="VDDD1P2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VDDD1P2/" tstamps="/d1464397-4d1c-43d1-bd89-b55b9a724d93/"/>
+      <tstamps>206466ff-02d9-4ad0-85eb-e1324a83ed7e</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>ERJ-6ENF1212V</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <libsource lib="cyborg65r2_pcb_passives" part="ERJ-6ENF1212V" description="Resistor"/>
+      <property name="Sheetname" value="VDDD1P2"/>
+      <property name="Sheetfile" value="VDDD1P2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VDDD1P2/" tstamps="/d1464397-4d1c-43d1-bd89-b55b9a724d93/"/>
+      <tstamps>dfb7397c-7284-4531-b593-beabf4157c9b</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>LT3045xMSE</value>
+      <footprint>Package_SO:MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/3045fa.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LT3045xMSE" description="500mA, Adjustable, Ultralow Noise, Ultrahigh PSRR Linear Regulator, MSOP-12"/>
+      <property name="Sheetname" value="VDDD1P2"/>
+      <property name="Sheetfile" value="VDDD1P2.kicad_sch"/>
+      <property name="ki_description" value="500mA, Adjustable, Ultralow Noise, Ultrahigh PSRR Linear Regulator, MSOP-12"/>
+      <property name="ki_keywords" value="linear voltage regulator low-noise"/>
+      <sheetpath names="/VDDD1P2/" tstamps="/d1464397-4d1c-43d1-bd89-b55b9a724d93/"/>
+      <tstamps>c8b5a1ef-106a-42b1-a37c-afdd655ef956</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>GRM21BZ71E106KE15</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.murata.com/products/productdetail?partno=GRM21BZ71E106KE15%23</datasheet>
+      <libsource lib="cyborg65r2_pcb_passives" part="GRM21BZ71E106KE15" description="0805 Ceramic Decoupling Cap"/>
+      <property name="Sheetname" value="VDDA2P5"/>
+      <property name="Sheetfile" value="VDDA2P5.kicad_sch"/>
+      <property name="ki_description" value="0805 Ceramic Decoupling Cap"/>
+      <property name="ki_keywords" value="cap capacitor ceramic SMD 0805"/>
+      <sheetpath names="/VDDA2P5/" tstamps="/3e47a574-34e2-4771-9247-02856d1b0ff8/"/>
+      <tstamps>2b9b9cc8-65dd-40e8-a2db-c881c700a8b0</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>GRM21BZ71E106KE15</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.murata.com/products/productdetail?partno=GRM21BZ71E106KE15%23</datasheet>
+      <libsource lib="cyborg65r2_pcb_passives" part="GRM21BZ71E106KE15" description="0805 Ceramic Decoupling Cap"/>
+      <property name="Sheetname" value="VDDA2P5"/>
+      <property name="Sheetfile" value="VDDA2P5.kicad_sch"/>
+      <property name="ki_description" value="0805 Ceramic Decoupling Cap"/>
+      <property name="ki_keywords" value="cap capacitor ceramic SMD 0805"/>
+      <sheetpath names="/VDDA2P5/" tstamps="/3e47a574-34e2-4771-9247-02856d1b0ff8/"/>
+      <tstamps>26df2a4b-770d-49d7-88ab-dc2e15c4a1b5</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>GRM21BC71H475KE11</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.murata.com/en-eu/products/productdetail?partno=GRM21BC71H475KE11%23</datasheet>
+      <libsource lib="cyborg65r2_pcb_passives" part="GRM21BC71H475KE11" description="0805 Ceramic Decoupling Cap"/>
+      <property name="Sheetname" value="VDDA2P5"/>
+      <property name="Sheetfile" value="VDDA2P5.kicad_sch"/>
+      <property name="ki_description" value="0805 Ceramic Decoupling Cap"/>
+      <property name="ki_keywords" value="cap capacitor ceramic SMD 0805"/>
+      <sheetpath names="/VDDA2P5/" tstamps="/3e47a574-34e2-4771-9247-02856d1b0ff8/"/>
+      <tstamps>0e563476-de75-44c7-87b9-ac1d32b0a96b</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>GRM21BZ71E106KE15</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.murata.com/products/productdetail?partno=GRM21BZ71E106KE15%23</datasheet>
+      <libsource lib="cyborg65r2_pcb_passives" part="GRM21BZ71E106KE15" description="0805 Ceramic Decoupling Cap"/>
+      <property name="Sheetname" value="VDDA2P5"/>
+      <property name="Sheetfile" value="VDDA2P5.kicad_sch"/>
+      <property name="ki_description" value="0805 Ceramic Decoupling Cap"/>
+      <property name="ki_keywords" value="cap capacitor ceramic SMD 0805"/>
+      <sheetpath names="/VDDA2P5/" tstamps="/3e47a574-34e2-4771-9247-02856d1b0ff8/"/>
+      <tstamps>212734c5-7197-46df-bef2-1b8bbe272fdb</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148WT</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <datasheet>https://www.onsemi.com/products/discrete-power-modules/small-signal-switching-diodes/1n4148wt</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="cyborg65r2_pcb_passives" part="1N4148WT" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="VDDA2P5"/>
+      <property name="Sheetfile" value="VDDA2P5.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/VDDA2P5/" tstamps="/3e47a574-34e2-4771-9247-02856d1b0ff8/"/>
+      <tstamps>919dcc1b-c783-4ae8-9d36-ba94d4a8dd19</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>5006</value>
+      <footprint>5006</footprint>
+      <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1315</datasheet>
+      <fields>
+        <field name="Arrow Part Number">5006</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/5006/keystone-electronics?region=europe</field>
+        <field name="Description">Test Point, PC, Snap in Mounting,  Compact, Black Base</field>
+        <field name="Manufacturer_Name">Keystone Electronics</field>
+        <field name="Manufacturer_Part_Number">5006</field>
+        <field name="Mouser Part Number">534-5006</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5006?qs=q0tsjPZWdm99DN5QVOwb8g%3D%3D</field>
+      </fields>
+      <libsource lib="cyborg65r2_connectors" part="5006" description="Test Point, PC, Snap in Mounting,  Compact, Black Base"/>
+      <property name="Description" value="Test Point, PC, Snap in Mounting,  Compact, Black Base"/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer_Name" value="Keystone Electronics"/>
+      <property name="Manufacturer_Part_Number" value="5006"/>
+      <property name="Mouser Part Number" value="534-5006"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5006?qs=q0tsjPZWdm99DN5QVOwb8g%3D%3D"/>
+      <property name="Arrow Part Number" value="5006"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/5006/keystone-electronics?region=europe"/>
+      <property name="Sheetname" value="VDDA2P5"/>
+      <property name="Sheetfile" value="VDDA2P5.kicad_sch"/>
+      <property name="ki_description" value="Test Point, PC, Snap in Mounting,  Compact, Black Base"/>
+      <sheetpath names="/VDDA2P5/" tstamps="/3e47a574-34e2-4771-9247-02856d1b0ff8/"/>
+      <tstamps>7ce6c9d8-795a-4a6f-b8ab-1e93abc14b80</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>5006</value>
+      <footprint>5006</footprint>
+      <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1315</datasheet>
+      <fields>
+        <field name="Arrow Part Number">5006</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/5006/keystone-electronics?region=europe</field>
+        <field name="Description">Test Point, PC, Snap in Mounting,  Compact, Black Base</field>
+        <field name="Manufacturer_Name">Keystone Electronics</field>
+        <field name="Manufacturer_Part_Number">5006</field>
+        <field name="Mouser Part Number">534-5006</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5006?qs=q0tsjPZWdm99DN5QVOwb8g%3D%3D</field>
+      </fields>
+      <libsource lib="cyborg65r2_connectors" part="5006" description="Test Point, PC, Snap in Mounting,  Compact, Black Base"/>
+      <property name="Description" value="Test Point, PC, Snap in Mounting,  Compact, Black Base"/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer_Name" value="Keystone Electronics"/>
+      <property name="Manufacturer_Part_Number" value="5006"/>
+      <property name="Mouser Part Number" value="534-5006"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5006?qs=q0tsjPZWdm99DN5QVOwb8g%3D%3D"/>
+      <property name="Arrow Part Number" value="5006"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/5006/keystone-electronics?region=europe"/>
+      <property name="Sheetname" value="VDDA2P5"/>
+      <property name="Sheetfile" value="VDDA2P5.kicad_sch"/>
+      <property name="ki_description" value="Test Point, PC, Snap in Mounting,  Compact, Black Base"/>
+      <sheetpath names="/VDDA2P5/" tstamps="/3e47a574-34e2-4771-9247-02856d1b0ff8/"/>
+      <tstamps>63018452-b019-416e-a015-1b4f8df8ef6b</tstamps>
+    </comp>
+    <comp ref="J15">
+      <value>413990-1</value>
+      <footprint>cyborg65r2_connectors:413990-1</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/413990-1.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">413990-1</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/413990-1/te-connectivity?region=nac</field>
+        <field name="Description">SMB Connector Receptacle, Male Pin 50Ohm Through Hole Solder</field>
+        <field name="Height">7.62</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">413990-1</field>
+        <field name="Mouser Part Number">571-4139901</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity/413990-1?qs=7QuPeZUaY4GhWa7hqv5PMQ%3D%3D</field>
+      </fields>
+      <libsource lib="cyborg65r2_connectors" part="413990-1" description="SMB Connector Receptacle, Male Pin 50Ohm Through Hole Solder"/>
+      <property name="Description" value="SMB Connector Receptacle, Male Pin 50Ohm Through Hole Solder"/>
+      <property name="Height" value="7.62"/>
+      <property name="Manufacturer_Name" value="TE Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="413990-1"/>
+      <property name="Mouser Part Number" value="571-4139901"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity/413990-1?qs=7QuPeZUaY4GhWa7hqv5PMQ%3D%3D"/>
+      <property name="Arrow Part Number" value="413990-1"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/413990-1/te-connectivity?region=nac"/>
+      <property name="Sheetname" value="VDDA2P5"/>
+      <property name="Sheetfile" value="VDDA2P5.kicad_sch"/>
+      <property name="ki_description" value="SMB Connector Receptacle, Male Pin 50Ohm Through Hole Solder"/>
+      <sheetpath names="/VDDA2P5/" tstamps="/3e47a574-34e2-4771-9247-02856d1b0ff8/"/>
+      <tstamps>df912569-38e5-42ec-ab75-31fa36fd24cc</tstamps>
+    </comp>
+    <comp ref="J16">
+      <value>TE 826926-3</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.te.com/usa-en/product-826926-3.html</datasheet>
+      <libsource lib="cyborg65r2_connectors" part="TE 826926-3" description="1x3 2.56mm Pin header"/>
+      <property name="Sheetname" value="VDDA2P5"/>
+      <property name="Sheetfile" value="VDDA2P5.kicad_sch"/>
+      <property name="ki_description" value="1x3 2.56mm Pin header"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/VDDA2P5/" tstamps="/3e47a574-34e2-4771-9247-02856d1b0ff8/"/>
+      <tstamps>e59e752f-5990-4543-9b65-0ab1adb33b41</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>ERJ-6ENF3322V</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <libsource lib="cyborg65r2_pcb_passives" part="ERJ-6ENF3322V" description="Resistor"/>
+      <property name="Sheetname" value="VDDA2P5"/>
+      <property name="Sheetfile" value="VDDA2P5.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VDDA2P5/" tstamps="/3e47a574-34e2-4771-9247-02856d1b0ff8/"/>
+      <tstamps>206466ff-02d9-4ad0-85eb-e1324a83ed7e</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>ERJ-6ENF1212V</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <libsource lib="cyborg65r2_pcb_passives" part="ERJ-6ENF1212V" description="Resistor"/>
+      <property name="Sheetname" value="VDDA2P5"/>
+      <property name="Sheetfile" value="VDDA2P5.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/VDDA2P5/" tstamps="/3e47a574-34e2-4771-9247-02856d1b0ff8/"/>
+      <tstamps>dfb7397c-7284-4531-b593-beabf4157c9b</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>LT3045xMSE</value>
+      <footprint>Package_SO:MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/3045fa.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LT3045xMSE" description="500mA, Adjustable, Ultralow Noise, Ultrahigh PSRR Linear Regulator, MSOP-12"/>
+      <property name="Sheetname" value="VDDA2P5"/>
+      <property name="Sheetfile" value="VDDA2P5.kicad_sch"/>
+      <property name="ki_description" value="500mA, Adjustable, Ultralow Noise, Ultrahigh PSRR Linear Regulator, MSOP-12"/>
+      <property name="ki_keywords" value="linear voltage regulator low-noise"/>
+      <sheetpath names="/VDDA2P5/" tstamps="/3e47a574-34e2-4771-9247-02856d1b0ff8/"/>
+      <tstamps>c8b5a1ef-106a-42b1-a37c-afdd655ef956</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Regulator_Linear" part="LT3045xMSE">
+      <description>500mA, Adjustable, Ultralow Noise, Ultrahigh PSRR Linear Regulator, MSOP-12</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/3045fa.pdf</docs>
+      <footprints>
+        <fp>MSOP*1EP*3x4mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LT3045xMSE</field>
+        <field name="Footprint">Package_SO:MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/3045fa.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="IN" type="passive"/>
+        <pin num="3" name="IN" type="passive"/>
+        <pin num="4" name="EN/UV" type="input"/>
+        <pin num="5" name="PG" type="open_collector"/>
+        <pin num="6" name="ILIM" type="passive"/>
+        <pin num="7" name="PGFB" type="input"/>
+        <pin num="8" name="SET" type="passive"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="OUTS" type="input"/>
+        <pin num="11" name="OUT" type="power_out"/>
+        <pin num="12" name="OUT" type="passive"/>
+        <pin num="13" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="cyborg65r2_connectors" part="413990-1">
+      <description>SMB Connector Receptacle, Male Pin 50Ohm Through Hole Solder</description>
+      <docs>https://componentsearchengine.com/Datasheets/2/413990-1.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">413990-1</field>
+        <field name="Footprint">cyborg65r2_connectors:413990-1</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/2/413990-1.pdf</field>
+        <field name="Description">SMB Connector Receptacle, Male Pin 50Ohm Through Hole Solder</field>
+        <field name="Height">7.62</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">413990-1</field>
+        <field name="Mouser Part Number">571-4139901</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity/413990-1?qs=7QuPeZUaY4GhWa7hqv5PMQ%3D%3D</field>
+        <field name="Arrow Part Number">413990-1</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/413990-1/te-connectivity?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CNTR" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="cyborg65r2_connectors" part="5006">
+      <description>Test Point, PC, Snap in Mounting,  Compact, Black Base</description>
+      <docs>http://www.keyelco.com/product-pdf.cfm?p=1315</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">5006</field>
+        <field name="Footprint">5006</field>
+        <field name="Datasheet">http://www.keyelco.com/product-pdf.cfm?p=1315</field>
+        <field name="Description">Test Point, PC, Snap in Mounting,  Compact, Black Base</field>
+        <field name="Manufacturer_Name">Keystone Electronics</field>
+        <field name="Manufacturer_Part_Number">5006</field>
+        <field name="Mouser Part Number">534-5006</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5006?qs=q0tsjPZWdm99DN5QVOwb8g%3D%3D</field>
+        <field name="Arrow Part Number">5006</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/5006/keystone-electronics?region=europe</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PRB" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="cyborg65r2_connectors" part="TE 826926-3">
+      <description>1x3 2.56mm Pin header</description>
+      <docs>https://www.te.com/usa-en/product-826926-3.html</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TE 826926-3</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet">https://www.te.com/usa-en/product-826926-3.html</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="cyborg65r2_pcb_passives" part="1N4148WT">
+      <description>Diode</description>
+      <docs>https://www.onsemi.com/products/discrete-power-modules/small-signal-switching-diodes/1n4148wt</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148WT</field>
+        <field name="Footprint">Diode_SMD:D_SOD-523</field>
+        <field name="Datasheet">https://www.onsemi.com/products/discrete-power-modules/small-signal-switching-diodes/1n4148wt</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="cyborg65r2_pcb_passives" part="ERJ-6ENF1212V">
+      <description>Resistor</description>
+      <docs>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">ERJ-6ENF1212V</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="cyborg65r2_pcb_passives" part="ERJ-6ENF2492V">
+      <description>Resistor</description>
+      <docs>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">ERJ-6ENF2492V</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="cyborg65r2_pcb_passives" part="ERJ-6ENF3322V">
+      <description>Resistor</description>
+      <docs>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">ERJ-6ENF3322V</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="cyborg65r2_pcb_passives" part="GRM21BC71H475KE11">
+      <description>0805 Ceramic Decoupling Cap</description>
+      <docs>https://www.murata.com/en-eu/products/productdetail?partno=GRM21BC71H475KE11%23</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">GRM21BC71H475KE11</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://www.murata.com/en-eu/products/productdetail?partno=GRM21BC71H475KE11%23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="cyborg65r2_pcb_passives" part="GRM21BZ71E106KE15">
+      <description>0805 Ceramic Decoupling Cap</description>
+      <docs>https://www.murata.com/products/productdetail?partno=GRM21BZ71E106KE15%23</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">GRM21BZ71E106KE15</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://www.murata.com/products/productdetail?partno=GRM21BZ71E106KE15%23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Regulator_Linear">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="cyborg65r2_connectors">
+      <uri>/Users/anthonywall/Library/CloudStorage/OneDrive-UniversityCollegeCork/Cyborgr2 Tapeout/PCB_DESIGN/CYBORG2_PCB/cyborg65r2_pcb/cyborg65r2_connectors.kicad_sym</uri>
+    </library>
+    <library logical="cyborg65r2_pcb_passives">
+      <uri>/Users/anthonywall/Library/CloudStorage/OneDrive-UniversityCollegeCork/Cyborgr2 Tapeout/PCB_DESIGN/CYBORG2_PCB/cyborg65r2_pcb/cyborg65r2_pcb_passives.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/VDD3P3/VDD3P3_INT">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="OUTS" pintype="input"/>
+      <node ref="U1" pin="11" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U1" pin="12" pinfunction="OUT" pintype="passive"/>
+    </net>
+    <net code="2" name="/VDDA2P5/VDD1P2_INT">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="J16" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U4" pin="10" pinfunction="OUTS" pintype="input"/>
+      <node ref="U4" pin="11" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U4" pin="12" pinfunction="OUT" pintype="passive"/>
+    </net>
+    <net code="3" name="/VDDA2P5/VDDOUT">
+      <node ref="J13" pin="1" pinfunction="PRB" pintype="passive"/>
+      <node ref="J16" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="4" name="/VDDA2P5/VSSOUT">
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="J14" pin="1" pinfunction="PRB" pintype="passive"/>
+      <node ref="J15" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="J15" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="J15" pin="4" pinfunction="GND" pintype="passive"/>
+      <node ref="J15" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U4" pin="13" pinfunction="GND" pintype="passive"/>
+      <node ref="U4" pin="9" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="5" name="/VDDD1P2/VDD1P2_INT">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="J12" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U3" pin="10" pinfunction="OUTS" pintype="input"/>
+      <node ref="U3" pin="11" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U3" pin="12" pinfunction="OUT" pintype="passive"/>
+    </net>
+    <net code="6" name="/VDDD2P5/VDDD2P5_INT">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="OUTS" pintype="input"/>
+      <node ref="U2" pin="11" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U2" pin="12" pinfunction="OUT" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="PGFB" pintype="input"/>
+    </net>
+    <net code="8" name="Net-(D2-K)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="PGFB" pintype="input"/>
+    </net>
+    <net code="9" name="Net-(D3-K)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="PGFB" pintype="input"/>
+    </net>
+    <net code="10" name="Net-(D4-K)">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U4" pin="7" pinfunction="PGFB" pintype="input"/>
+    </net>
+    <net code="11" name="Net-(J3-CNTR)">
+      <node ref="J3" pin="1" pinfunction="CNTR" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(J7-CNTR)">
+      <node ref="J7" pin="1" pinfunction="CNTR" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(J11-CNTR)">
+      <node ref="J11" pin="1" pinfunction="CNTR" pintype="passive"/>
+      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(J15-CNTR)">
+      <node ref="J15" pin="1" pinfunction="CNTR" pintype="passive"/>
+      <node ref="J16" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(U1-ILIM)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="ILIM" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(U1-SET)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="SET" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(U2-ILIM)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="ILIM" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(U2-SET)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="SET" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(U3-ILIM)">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="ILIM" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(U3-SET)">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="SET" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(U4-ILIM)">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="ILIM" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(U4-SET)">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U4" pin="8" pinfunction="SET" pintype="passive"/>
+    </net>
+    <net code="23" name="VDD3P3">
+      <node ref="J1" pin="1" pinfunction="PRB" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="24" name="VDDD1P2">
+      <node ref="J12" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="PRB" pintype="passive"/>
+    </net>
+    <net code="25" name="VDDD2P5">
+      <node ref="J5" pin="1" pinfunction="PRB" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="26" name="VDDEXT">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U1" pin="2" pinfunction="IN" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="IN" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="EN/UV" pintype="input"/>
+      <node ref="U2" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="IN" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="IN" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="EN/UV" pintype="input"/>
+      <node ref="U3" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="IN" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="IN" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="EN/UV" pintype="input"/>
+      <node ref="U4" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="IN" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="IN" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="EN/UV" pintype="input"/>
+    </net>
+    <net code="27" name="VSS3P3">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="PRB" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="GND" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="28" name="VSSD1P2">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="PRB" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="J11" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="J11" pin="4" pinfunction="GND" pintype="passive"/>
+      <node ref="J11" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U3" pin="13" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="29" name="VSSD2P5">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="PRB" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="GND" pintype="passive"/>
+      <node ref="J7" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="30" name="VSSGLOBAL">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="unconnected-(U1-PG-Pad5)">
+      <node ref="U1" pin="5" pinfunction="PG" pintype="open_collector"/>
+    </net>
+    <net code="32" name="unconnected-(U2-PG-Pad5)">
+      <node ref="U2" pin="5" pinfunction="PG" pintype="open_collector"/>
+    </net>
+    <net code="33" name="unconnected-(U3-PG-Pad5)">
+      <node ref="U3" pin="5" pinfunction="PG" pintype="open_collector"/>
+    </net>
+    <net code="34" name="unconnected-(U4-PG-Pad5)">
+      <node ref="U4" pin="5" pinfunction="PG" pintype="open_collector"/>
+    </net>
+  </nets>
+</export>

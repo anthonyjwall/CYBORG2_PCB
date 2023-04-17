@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "cyborg65r2_connectors")(type "KiCad")(uri "${KIPRJMOD}/cyborg65r2_connectors.pretty")(options "")(descr ""))
+  (lib (name "cyborg65r2_passives")(type "KiCad")(uri "${KIPRJMOD}/cyborg65r2_passives.pretty")(options "")(descr ""))
+  (lib (name "cyborg65r2_actives")(type "KiCad")(uri "${KIPRJMOD}/cyborg65r2_actives.pretty")(options "")(descr ""))
+)
