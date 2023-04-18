@@ -1,0 +1,14 @@
+### Footprint positions - created on 2023 April 17, Monday 18:49:25 ###
+### Printed by KiCad version 7.0.1-0
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                Package                 PosX       PosY       Rot  Side
+C1        GRM188C81C106MA73  C_0603_1608Metric   100.2683    91.6780  180.0000  bottom
+C2        GRM188C81C106MA73  C_0603_1608Metric    97.7933    84.3680  -90.0000  bottom
+C3        GRM188C81C106MA73  C_0603_1608Metric   100.8033    84.3630  -90.0000  bottom
+C4        GRM188C81C106MA73  C_0603_1608Metric    97.5333    87.0680  180.0000  bottom
+C5        GRM188C81C106MA73  C_0603_1608Metric    99.2933    84.3630  -90.0000  bottom
+C6        GRM21BZ71E106KE15  C_0805_2012Metric   104.2333    94.9480   90.0000  bottom
+C7        GRM21BZ71E106KE15  C_0805_2012Metric   107.0633    81.2580  -90.0000  bottom
+C8        GRM21BZ71E106KE15  C_0805_2012Metric   114.9050    92.2000    0.0000  bottom
+## End

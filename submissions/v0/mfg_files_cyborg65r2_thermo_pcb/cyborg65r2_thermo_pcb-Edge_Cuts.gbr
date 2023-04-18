@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,7.0.1-0*%
+%TF.CreationDate,2023-04-17T18:48:32+01:00*%
+%TF.ProjectId,cyborg65r2_thermo_pcb,6379626f-7267-4363-9572-325f74686572,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 7.0.1-0) date 2023-04-17 18:48:32*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.100000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X100000000Y-39805000D02*
+X336300000Y-39805000D01*
+X336300000Y-231305000D01*
+X100000000Y-231305000D01*
+X100000000Y-39805000D01*
+M02*
